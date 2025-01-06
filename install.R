@@ -1,0 +1,7 @@
+install.packages("shiny")
+install.packages("leaflet")
+install.packages("leaflet.extras")
+install.packages("shinydashboard")
+install.packages("dplyr")
+install.packages("tidyr")
+install.packages("tibble")
