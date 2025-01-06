@@ -43,7 +43,7 @@ function(input, output, session) {
                                   ifelse(Dr[[ColorBy()]] == 0, "blue",
                                          ifelse(Dr[[ColorBy()]] < 3,"orange",
                                                 "red")),
-                                popup = Dr$Lloc, fillOpacity = 0.2)
+                                popup = Dr$Lloc, fillOpacity = 0.2, radius = 30)
     )
   })
   
